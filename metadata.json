@@ -1,0 +1,6 @@
+{
+  "name": "English Solutions RF",
+  "description": "Escola de Idiomas em Erechim - RS. Cursos de Inglês e Espanhol com foco em conversação real e turmas reduzidas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

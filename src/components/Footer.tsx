@@ -62,6 +62,11 @@ export const Footer: React.FC<FooterProps> = ({ onOpenContact }) => {
                 </a>
               </li>
               <li>
+                <a href="#seguranca" className="hover:text-primary transition-colors">
+                  Segurança & Privacidade LGPD
+                </a>
+              </li>
+              <li>
                 <a href="#contato" className="hover:text-primary transition-colors">
                   Agendar Aula Experimental
                 </a>

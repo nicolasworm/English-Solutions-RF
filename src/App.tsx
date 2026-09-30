@@ -9,6 +9,7 @@ import { Hero } from './components/Hero';
 import { Courses } from './components/Courses';
 import { Differentials } from './components/Differentials';
 import { Testimonials } from './components/Testimonials';
+import { SecuritySection } from './components/SecuritySection';
 import { ContactSection } from './components/ContactSection';
 import { ContactModal } from './components/ContactModal';
 import { WhatsAppButton } from './components/WhatsAppButton';
@@ -55,7 +56,10 @@ export default function App() {
         {/* 4. Seção Depoimentos com histórias reais de alunos de Erechim */}
         <Testimonials onOpenContact={() => handleOpenContact()} />
 
-        {/* 5. Seção Contato / Agendamento com formulário e localização */}
+        {/* 5. Seção de Segurança, Privacidade LGPD & Proteção de Dados */}
+        <SecuritySection />
+
+        {/* 6. Seção Contato / Agendamento com formulário e localização */}
         <ContactSection initialCourse={modalCourse} />
       </main>
 
